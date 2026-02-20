@@ -1,0 +1,97 @@
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cv {
+    display: grid;         
+    grid-template-columns: 1fr 2fr;
+    height: 100vh;
+
+}
+
+.AboutMe{
+    padding-left: 80px;
+
+}
+
+.Name{
+    color: #1c60b4;
+    border-bottom: 2px solid #2f5fa7;
+    padding-bottom: 15px;
+    margin: auto;
+}
+
+
+.Name h1{
+    font-size: 50px;
+}
+.Name h2{
+    font-size: 35px;
+}
+
+.Profile{
+    border-bottom: 2px solid #2f5fa7;
+    padding-bottom: 15px;
+    margin: auto;
+}
+
+.Experience{
+    border-bottom: 2px solid #2f5fa7;
+    padding-bottom: 15px;
+    margin: auto;
+}
+
+.Education{
+    border-bottom: 2px solid #2f5fa7;
+    padding-bottom: 15px;
+    margin: auto;
+}
+
+.Academic{
+    border-bottom: 2px solid #2f5fa7;
+    padding-bottom: 15px;
+    margin: auto;
+}
+
+.Contact{
+    color: white;
+    background-color: #021d54;
+    padding-left: 20px;
+}
+
+.Perfil{
+    padding-left: 60px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%; 
+    object-fit: cover;   
+}
+
+.Languages h2{
+    justify-content: center;
+    color:#021d54;
+    background-color: white;
+    width: 300px;
+    height: auto;
+}
+
+.Abilities h2{
+    justify-content: center;
+    color:#021d54;
+    background-color: white;
+    width: 300px;
+    height: auto;
+}
+
+.Courses h2{
+    justify-content: center;
+    color:#021d54;
+    background-color: white;
+    width: 300px;
+    height: auto;
+}
+
+.Tools{
+    display: grid;
+    
+}
